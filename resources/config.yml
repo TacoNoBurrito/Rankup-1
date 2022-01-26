@@ -1,0 +1,24 @@
+# Messages
+rankup: "You have ranked up to {rank}"
+rankup-lack-money: "You need {money} to rank-up"
+prestige: "You are now prestige {prestige}"
+prestige-lack-money: "You need {money} to prestige"
+max-rank: "You are at the max rank"
+max-prestige: "You are at the max prestige"
+need-be-max-to-prestige: "You must be the top rank to prestige!"
+# Ranks
+ranks:
+  A:
+    price: 1000
+    commands:
+      - "say {name} has ranked up to A"
+  B:
+    price: 2000
+    commands:
+      - "say {name} has ranked up to B"
+# Prestige
+prestiges:
+  1:
+    price: 10000
+    commands:
+      - "say {name} is now prestige 1"
